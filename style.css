@@ -611,6 +611,40 @@ span {
     display: block;
   }
 
+  .home .profession-container .profession-box {
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    width: 768px;
+    height: 768px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* animation: professionRotate 13s ease-out infinite; */
+  }
+
+  @keyframes professionRotate {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    20%, 25%, 45%, 50%, 70%, 75%, 95% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .home .profession-container .profession-box h3 {
+    display: none;
+  }
+
+  .circle{
+    display: none;
+  }
+
+  .portfolio-box .portfolio-layer {
+    opacity: 1;
+  }
+
   #darkMode-icon {
     position: absolute;
     right: 7rem;
@@ -812,4 +846,3 @@ span {
     margin-top: 2rem;
   }
 }
-
